@@ -56,10 +56,10 @@
 	/*        Start Header        */
 
 	header {
-		background-image: url(img/big-s.jpg);
+		/*background-image: url(img/big-s.jpg);*/
 		width: 100%;
-		background-size: cover;
-		background-position: bottom;
+		/*background-size: cover;*/
+		/*background-position: bottom;*/
 		overflow: hidden;
 	}
 /*
@@ -89,23 +89,13 @@
 		/*margin-top: -70px !important*/
 	}
 
-	header section {
+	header{
 		color: white;
 		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	        display:flex;
 		flex-direwction:column;
 
-	section h2,
-	section h1 {
-		word-spacing: 1px;
-		margin-bottom: 10px;
-		font-size: 45px;
-		font-weight: bold;
-		letter-spacing: 2px;
-		margin-top: 20px;
-	}
-
-	section h5 {
+	header h5 {
 		margin-top: 15px;
 		text-align: center;
 		font-size: 13px;
@@ -115,7 +105,7 @@
 
 	}
 
-	section button {
+	header main-button {
 		margin-top: 110px;
 		color: white;
 		background-color: rgba(0, 0, 0, 0);
@@ -129,19 +119,19 @@
 		transition: all 0.5s ease-in-out;
 	}
 
-	section button:hover {
+	header main-button:hover {
 		width: 130px;
 		height: 45px;
 		border: 3px solid rgb(196, 190, 190);
 	}
 
-	section h1 {
+	header h1 {
 		font-size: 120px;
 		font-weight: bold;
 		color: rgb(87, 211, 87);
 	}
 
-	section h1:hover {
+	header h1:hover {
 		border: 5px solid rgb(55, 228, 55);
 		border-radius: 10px;
 		font-size: 100px;
